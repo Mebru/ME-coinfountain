@@ -55,7 +55,7 @@ export class GamePlay extends Phaser.State {
 
     // set an event listener to kill as it reaches bounds
     this.coin.checkWorldBounds = true;
-    this.coin.body.collideWorldBounds = true;
+    this.coin.body.collideWorldBounds = false;
     // gravity, sort of falling speed
     this.coin.body.gravity.setTo(0, 1700);
     // this.coin.body.gravity.setTo(0, 1700);
