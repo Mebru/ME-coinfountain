@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": false
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "targets": {
+          "ie": "9"
+        }
+      }
+    ]
+  ]
+}
